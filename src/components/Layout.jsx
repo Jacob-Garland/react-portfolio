@@ -5,6 +5,8 @@ import AboutPage from './AboutPage';
 import ProjectsPage from './ProjectsPage';
 import ContactPage from './ContactPage';
 import ResumePage from './ResumePage';
+import Footer from './Footer';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Layout = () => {
     return (
@@ -21,6 +23,7 @@ const Layout = () => {
                     </Routes>
                 </div>
             </main>
+            <Footer />
         </Router>
     );
 };
